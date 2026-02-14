@@ -1,0 +1,31 @@
+{
+  "name": "skill-bundler-marketplace",
+  "owner": {
+    "name": "Context-Engineering"
+  },
+  "metadata": {
+    "description": "Context-Engineering skill distribution for build-time skill-bundle emission and graph artifact packaging.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-bundler",
+      "source": "./",
+      "description": "Emit deterministic skill-control bundles and integrity manifests from .index artifacts.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Context-Engineering"
+      },
+      "category": "developer-tools",
+      "tags": ["skills", "packaging", "governance", "bundler"],
+      "keywords": [
+        "agent-skill",
+        "packaging",
+        "graph",
+        "ontology"
+      ],
+      "strict": false,
+      "skills": ["./skills/skill-bundler"]
+    }
+  ]
+}

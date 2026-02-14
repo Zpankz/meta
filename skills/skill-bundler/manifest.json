@@ -1,0 +1,48 @@
+{
+  "category": "skill",
+  "capabilities": [
+    "build_skill_bundle",
+    "compute_bundle_checksums",
+    "emit_indexes",
+    "package_skill_artifacts",
+    "validate_artifact_graph",
+    "verify_packaging_integrity"
+  ],
+  "hard_deps": [
+    "system-skill",
+    "skill-orchestrator"
+  ],
+  "id": "skill-bundler",
+  "inputs": [
+    ".index/bridge_candidates.csv",
+    ".index/bridge_index.json",
+    ".index/control_ontology.json",
+    ".index/control_ontology.schema.json",
+    ".index/hyperedges.json",
+    ".index/main_index_payload.json",
+    ".index/main_index.yaml",
+    ".index/skill_graph.json"
+  ],
+  "name": "skill-bundler",
+  "outputs": [
+    ".index/skill_bundle_manifest.json",
+    ".index/skill_bundle.zip"
+  ],
+  "quality": {
+    "cluster": "00_meta",
+    "hard_degree": 2,
+    "soft_degree": 0,
+    "word_count": 220
+  },
+  "soft_refs": [
+    "skill-protocol",
+    "skill-updater"
+  ],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "build deterministic skill artifacts",
+    "package .index bundle",
+    "create reproducible release artifacts",
+    "validate and export skill graph"
+  ]
+}

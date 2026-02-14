@@ -1,0 +1,34 @@
+{
+  "called_by": [],
+  "canonical_path": "repo/00_meta/skill-bundler.skill",
+  "category": "00_meta",
+  "depends_on": [
+    "skill-orchestrator",
+    "skill-protocol",
+    "skill-updater",
+    "system-skill"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "skill-bundler/scripts/package_bundle.py"
+  ],
+  "hard_deps": [
+    "skill-orchestrator",
+    "system-skill"
+  ],
+  "id": "skill-bundler",
+  "outputs": [
+    ".index/skill_bundle.zip",
+    ".index/skill_bundle_manifest.json"
+  ],
+  "quality": {
+    "script_count": 1,
+    "tokens": 640,
+    "word_count": 220
+  },
+  "soft_refs": [
+    "skill-protocol",
+    "skill-updater"
+  ],
+  "version": "0.1.0"
+}

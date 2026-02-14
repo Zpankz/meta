@@ -1,0 +1,21 @@
+# Local editor/service artifacts
+.DS_Store
+
+authors
+npm-debug.log*
+node_modules/
+.vscode/
+.python-version
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Build artifacts
+.index/skill_bundle.zip
+.index/skill_bundle_manifest.json
+
+# Local testing caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
