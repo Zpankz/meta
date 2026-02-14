@@ -1,6 +1,6 @@
 {
   "called_by": [],
-  "canonical_path": "repo/00_meta/skill-bundler.skill",
+  "canonical_path": "skills/meta",
   "category": "00_meta",
   "depends_on": [
     "skill-orchestrator",
@@ -10,13 +10,13 @@
   ],
   "deprecated_aliases": [],
   "entry_points": [
-    "skill-bundler/scripts/package_bundle.py"
+    "meta/scripts/package_bundle.py"
   ],
   "hard_deps": [
     "skill-orchestrator",
     "system-skill"
   ],
-  "id": "skill-bundler",
+  "id": "meta",
   "outputs": [
     ".index/skill_bundle.zip",
     ".index/skill_bundle_manifest.json"

@@ -1,9 +1,9 @@
 ---
-name: skill-bundler
+name: meta
 description: Package skill-system graph artifacts into a deterministic, checksummed bundle for audit and distribution.
 ---
 
-# Skill Bundler
+# Meta
 
 Use this skill when you need a reproducible artifact build of governance outputs.
 

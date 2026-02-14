@@ -1,5 +1,5 @@
 {
-  "name": "skill-bundler-marketplace",
+  "name": "meta-marketplace",
   "owner": {
     "name": "Context-Engineering"
   },
@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "skill-bundler",
+      "name": "meta",
       "source": "./",
       "description": "Emit deterministic skill-control bundles and integrity manifests from .index artifacts.",
       "version": "0.1.0",
@@ -17,7 +17,7 @@
         "name": "Context-Engineering"
       },
       "category": "developer-tools",
-      "tags": ["skills", "packaging", "governance", "bundler"],
+      "tags": ["skills", "packaging", "governance", "meta"],
       "keywords": [
         "agent-skill",
         "packaging",
@@ -25,7 +25,7 @@
         "ontology"
       ],
       "strict": false,
-      "skills": ["./skills/skill-bundler"]
+      "skills": ["./skills/meta"]
     }
   ]
 }

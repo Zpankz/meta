@@ -12,7 +12,7 @@
     "system-skill",
     "skill-orchestrator"
   ],
-  "id": "skill-bundler",
+  "id": "meta",
   "inputs": [
     ".index/bridge_candidates.csv",
     ".index/bridge_index.json",
@@ -23,7 +23,7 @@
     ".index/main_index.yaml",
     ".index/skill_graph.json"
   ],
-  "name": "skill-bundler",
+  "name": "meta",
   "outputs": [
     ".index/skill_bundle_manifest.json",
     ".index/skill_bundle.zip"
