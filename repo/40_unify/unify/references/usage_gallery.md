@@ -19,7 +19,7 @@ Medical corpus snapshot
 ```bash
 python scripts/unify.py /Users/mikhail/Projects/Context-Engineering/Skills --max-clusters 10 --output ./unified-med
 ```
-Check for: `core/`, `modules/{domain}/`, `bridges/`.
+Verify `core/`, `modules/{domain}/`, `bridges/`.
 
 Quality loop
 ```bash

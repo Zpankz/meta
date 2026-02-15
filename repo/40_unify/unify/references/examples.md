@@ -6,7 +6,7 @@
 python scripts/unify.py /Users/mikhail/Projects/Context-Engineering/Skills/repo/40_unify/unify --analyze-only --verbose
 ```
 
-Use when you want a deterministic analysis pass before applying merge/split operations.
+Deterministic analysis pass:
 
 ## Example 2: Full clinical-style decomposition
 
@@ -27,7 +27,7 @@ Expected outputs include:
 python scripts/unify.py /path/to/repo --threshold 0.90 --max-clusters 16 --max-iter 100 --block-size 350
 ```
 
-Use for high-noise codebases where boundary preservation is preferable to strict sparsity.
+Noise-heavy codebases: preserve boundaries over strict sparsity.
 
 ## Example 4: Quality-driven hardening
 

@@ -1,6 +1,6 @@
 # Algorithm Primitives
 
-Concise pipeline (all deterministic, seed-stable):
+Deterministic pipeline:
 
 1) Ingest
 - scan supported text/code extensions

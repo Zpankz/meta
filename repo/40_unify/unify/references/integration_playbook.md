@@ -1,6 +1,6 @@
 # Integration Playbook (Condensed)
 
-Use pattern:
+Flow:
 1) Ingest-only baseline
 - run `--analyze-only` first on a known snapshot
 - inspect `analysis.json` for cluster count, isolated nodes, edge density
@@ -15,7 +15,7 @@ Use pattern:
 
 4) Ontology + orchestration handoff
 - feed `analysis.json` into `graph`/`hierarchical-reasoning`/`ontolog`
-- route through `skill-orchestrator` for meta workflows if needed
+- route through `skill-orchestrator` for meta workflows
 
 5) Safe promote policy
 - promote to production when: DAG exists, bridge coverage non-zero,
