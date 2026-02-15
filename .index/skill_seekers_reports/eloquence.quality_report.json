@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-02-15T17:27:51.931827",
+  "skill_name": "eloquence",
+  "overall_score": {
+    "total_score": 76.5,
+    "completeness": 80.0,
+    "accuracy": 100.0,
+    "coverage": 30.0,
+    "health": 100.0,
+    "grade": "B"
+  },
+  "metrics": [
+    {
+      "name": "Completeness",
+      "value": 80.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation completeness: 80.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Accuracy",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation accuracy: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Coverage",
+      "value": 30.0,
+      "level": "MetricLevel.WARNING",
+      "description": "Documentation coverage: 30.0%",
+      "suggestions": [
+        "Add API reference documentation",
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Health",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Skill health: 100.0%",
+      "suggestions": []
+    }
+  ],
+  "statistics": {
+    "total_files": 4,
+    "total_size_bytes": 36380,
+    "markdown_files": 4,
+    "reference_files": 3,
+    "total_characters": 33322,
+    "total_words": 4678
+  },
+  "recommendations": [
+    "\ud83d\udfe1 Expand documentation coverage (API, examples)",
+    "\ud83d\udcdd Review and enhance overall documentation quality"
+  ],
+  "history": []
+}

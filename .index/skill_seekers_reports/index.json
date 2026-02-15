@@ -1,0 +1,303 @@
+[
+  {
+    "skill": "meta.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "skill-composer.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "skill-optimiser.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "skill-orchestrator.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "skill-protocol.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "skill-updater.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "system-skill.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "constraints.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "graph-reasoning.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "graph.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "hierarchical-reasoning.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "ontolog.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "unifying-graph-analytics.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "cicm-saq-rubric.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "pex.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "saq-rubric-metaschema.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "saq-rubric.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "saq-schema.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "saq-template-2.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "saq.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "telos.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "abduct.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "agency.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "compound-learning.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "critique.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "dspy.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "eloquence.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "lambda.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "learn.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "non-linear.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "obsidian.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "process-goals-prompting.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "reason.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "rpp.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "think.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "urf.skill",
+    "score": null,
+    "grade": null,
+    "components": null,
+    "error": null,
+    "returncode": 0
+  },
+  {
+    "skill": "unify.skill",
+    "score": 79.0,
+    "grade": "B",
+    "components": {
+      "completeness": 80.0,
+      "accuracy": 100.0,
+      "coverage": 40.0,
+      "health": 100.0
+    },
+    "error": null,
+    "returncode": 0
+  }
+]

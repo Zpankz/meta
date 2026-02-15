@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-02-15T17:27:51.284848",
+  "skill_name": "saq-template-2",
+  "overall_score": {
+    "total_score": 84.0,
+    "completeness": 80.0,
+    "accuracy": 100.0,
+    "coverage": 60.0,
+    "health": 100.0,
+    "grade": "B+"
+  },
+  "metrics": [
+    {
+      "name": "Completeness",
+      "value": 80.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation completeness: 80.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Accuracy",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation accuracy: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Coverage",
+      "value": 60.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation coverage: 60.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Health",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Skill health: 100.0%",
+      "suggestions": []
+    }
+  ],
+  "statistics": {
+    "total_files": 7,
+    "total_size_bytes": 51106,
+    "markdown_files": 7,
+    "reference_files": 5,
+    "total_characters": 49632,
+    "total_words": 6257
+  },
+  "recommendations": [],
+  "history": []
+}

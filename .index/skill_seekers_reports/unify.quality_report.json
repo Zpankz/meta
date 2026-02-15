@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-02-15T17:29:31.296217",
+  "skill_name": "unify",
+  "overall_score": {
+    "total_score": 79.0,
+    "completeness": 80.0,
+    "accuracy": 100.0,
+    "coverage": 40.0,
+    "health": 100.0,
+    "grade": "B"
+  },
+  "metrics": [
+    {
+      "name": "Completeness",
+      "value": 80.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation completeness: 80.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Accuracy",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation accuracy: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Coverage",
+      "value": 40.0,
+      "level": "MetricLevel.WARNING",
+      "description": "Documentation coverage: 40.0%",
+      "suggestions": [
+        "Add API reference documentation",
+        "Expand documentation coverage"
+      ]
+    },
+    {
+      "name": "Health",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Skill health: 100.0%",
+      "suggestions": []
+    }
+  ],
+  "statistics": {
+    "total_files": 7,
+    "total_size_bytes": 25849,
+    "markdown_files": 7,
+    "reference_files": 6,
+    "total_characters": 25093,
+    "total_words": 3496
+  },
+  "recommendations": [
+    "\ud83d\udfe1 Expand documentation coverage (API, examples)",
+    "\ud83d\udcdd Review and enhance overall documentation quality"
+  ],
+  "history": []
+}

@@ -104,7 +104,7 @@
     "30_tools_and_aux",
     "40_unify"
   ],
-  "generated_at": "2026-02-15T07:24:47.038393Z",
+  "generated_at": "2026-02-15T16:13:25.135350Z",
   "metrics": {
     "acyclic_ratio_hard_dag": 1.0,
     "acyclic_ratio_raw": 0.4865,

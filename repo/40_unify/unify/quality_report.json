@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-16T02:13:01.833928",
+  "skill_name": "unify",
+  "overall_score": {
+    "total_score": 100.0,
+    "completeness": 100.0,
+    "accuracy": 100.0,
+    "coverage": 100.0,
+    "health": 100.0,
+    "grade": "A+"
+  },
+  "metrics": [
+    {
+      "name": "Completeness",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation completeness: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Accuracy",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation accuracy: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Coverage",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Documentation coverage: 100.0%",
+      "suggestions": []
+    },
+    {
+      "name": "Health",
+      "value": 100.0,
+      "level": "MetricLevel.INFO",
+      "description": "Skill health: 100.0%",
+      "suggestions": []
+    }
+  ],
+  "statistics": {
+    "total_files": 10,
+    "total_size_bytes": 33303,
+    "markdown_files": 10,
+    "reference_files": 9,
+    "total_characters": 32527,
+    "total_words": 4345
+  },
+  "recommendations": [
+    "\u2705 Excellent quality! Consider adding advanced topics"
+  ],
+  "history": []
+}
