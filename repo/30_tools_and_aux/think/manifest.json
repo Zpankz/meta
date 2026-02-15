@@ -1,0 +1,21 @@
+{
+  "capabilities": [],
+  "category": "skill",
+  "hard_deps": [
+    "non-linear"
+  ],
+  "id": "think",
+  "inputs": [],
+  "name": "think",
+  "outputs": [],
+  "quality": {
+    "cluster": "30_tools_and_aux",
+    "hard_degree": 1,
+    "soft_degree": 0,
+    "word_count": 300
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [],
+  "version": "1.0.0"
+}

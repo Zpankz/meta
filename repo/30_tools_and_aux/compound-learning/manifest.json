@@ -1,0 +1,32 @@
+{
+  "capabilities": [],
+  "category": "skill",
+  "hard_deps": [
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "learn",
+    "reason",
+    "skill-updater",
+    "think"
+  ],
+  "id": "compound-learning",
+  "inputs": [],
+  "name": "compound-learning",
+  "outputs": [],
+  "quality": {
+    "cluster": "30_tools_and_aux",
+    "hard_degree": 8,
+    "soft_degree": 0,
+    "word_count": 708
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "# Explicit triggers",
+    "# Implicit triggers",
+    "return COMPOUND, MINIMAL  # Auto-trigger"
+  ],
+  "version": "1.0.0"
+}

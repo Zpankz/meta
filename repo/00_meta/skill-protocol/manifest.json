@@ -1,0 +1,33 @@
+{
+  "capabilities": [],
+  "category": "skill",
+  "hard_deps": [
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "non-linear",
+    "reason",
+    "skill-composer",
+    "skill-optimiser",
+    "skill-orchestrator",
+    "skill-updater",
+    "think"
+  ],
+  "id": "skill-protocol",
+  "inputs": [],
+  "name": "skill-protocol",
+  "outputs": [],
+  "quality": {
+    "cluster": "00_meta",
+    "hard_degree": 10,
+    "soft_degree": 0,
+    "word_count": 530
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "skills, ensures workflow discipline, and prevents skill bypass. Triggers",
+    "ACTIVATION_TRIGGERS = {"
+  ],
+  "version": "1.0.0"
+}

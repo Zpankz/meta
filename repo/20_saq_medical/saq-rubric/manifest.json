@@ -1,0 +1,48 @@
+{
+  "capabilities": [
+    "EvaluationReport",
+    "FailurePattern",
+    "FailurePatternResult",
+    "FeedbackItem",
+    "ImprovementPriority",
+    "MustIncludeCoverage",
+    "OverInvestment",
+    "SectionScore",
+    "Tier",
+    "calculate_word_distribution",
+    "check_element_present",
+    "convert",
+    "count_integration_points",
+    "count_words",
+    "detect_failure_patterns",
+    "evaluate_section",
+    "extract_sections",
+    "generate_feedback",
+    "main",
+    "print_report",
+    "report_to_dict",
+    "validate_response"
+  ],
+  "category": "skill",
+  "hard_deps": [
+    "pex",
+    "saq"
+  ],
+  "id": "saq-rubric",
+  "inputs": [],
+  "name": "saq-rubric",
+  "outputs": [],
+  "quality": {
+    "cluster": "20_saq_medical",
+    "hard_degree": 2,
+    "soft_degree": 2,
+    "word_count": 571
+  },
+  "soft_refs": [
+    "saq-rubric-metaschema",
+    "saq-template-2"
+  ],
+  "subgraph_type": "modular_block",
+  "triggers": [],
+  "version": "1.0.0"
+}

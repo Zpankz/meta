@@ -1,0 +1,25 @@
+{
+  "capabilities": [
+    "validate"
+  ],
+  "category": "skill",
+  "hard_deps": [
+    "think"
+  ],
+  "id": "learn",
+  "inputs": [],
+  "name": "\"learn\"",
+  "outputs": [],
+  "quality": {
+    "cluster": "30_tools_and_aux",
+    "hard_degree": 1,
+    "soft_degree": 0,
+    "word_count": 288
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "AI, or organizational. Triggers: /learn, /compound, /improve, /refine,"
+  ],
+  "version": "1.0.0"
+}

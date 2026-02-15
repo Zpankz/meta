@@ -1,0 +1,51 @@
+{
+  "capabilities": [
+    "Domain",
+    "PerformancePattern",
+    "PipelineConfig",
+    "PipelineResult",
+    "QuestionType",
+    "Rubric",
+    "ValidationResult",
+    "analyze",
+    "classify_question",
+    "count_cascades",
+    "count_domains",
+    "count_values",
+    "count_words",
+    "generate_rubric",
+    "generate_schema",
+    "main",
+    "parse_comments",
+    "parse_histogram_str",
+    "rubric_to_markdown",
+    "run_pipeline",
+    "to_markdown",
+    "validate"
+  ],
+  "category": "skill",
+  "hard_deps": [
+    "constraints",
+    "hierarchical-reasoning",
+    "saq"
+  ],
+  "id": "saq-rubric-metaschema",
+  "inputs": [],
+  "name": "saq-rubric-metaschema",
+  "outputs": [],
+  "quality": {
+    "cluster": "20_saq_medical",
+    "hard_degree": 3,
+    "soft_degree": 1,
+    "word_count": 648
+  },
+  "soft_refs": [
+    "saq-rubric"
+  ],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "| Type | Domains | Trigger Words |",
+    "| HYBRID | [Merge templates based on detected elements] | Multiple triggers |"
+  ],
+  "version": "1.0.0"
+}

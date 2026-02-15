@@ -1,31 +1,39 @@
 {
-  "name": "meta-marketplace",
+  "name": "context-engineering-meta",
   "owner": {
     "name": "Context-Engineering"
   },
   "metadata": {
-    "description": "Context-Engineering skill distribution for build-time skill-bundle emission and graph artifact packaging.",
+    "description": "Context-Engineering skill corpus plugin for deterministic metadata emission and integrity indexing.",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "meta",
       "source": "./",
-      "description": "Emit deterministic skill-control bundles and integrity manifests from .index artifacts.",
+      "description": "Emit and verify reproducible governance artifacts for local .index artifacts.",
       "version": "0.1.0",
       "author": {
         "name": "Context-Engineering"
       },
       "category": "developer-tools",
-      "tags": ["skills", "packaging", "governance", "meta"],
+      "tags": [
+        "skills",
+        "packaging",
+        "graph",
+        "ontology",
+        "governance"
+      ],
       "keywords": [
         "agent-skill",
         "packaging",
-        "graph",
-        "ontology"
+        "skill-corpus",
+        "control-plane"
       ],
       "strict": false,
-      "skills": ["./skills/meta"]
+      "skills": [
+        "./skills/meta"
+      ]
     }
   ]
 }

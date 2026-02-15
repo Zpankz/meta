@@ -1,0 +1,25 @@
+{
+  "capabilities": [],
+  "category": "skill",
+  "hard_deps": [
+    "constraints",
+    "hierarchical-reasoning",
+    "saq"
+  ],
+  "id": "telos",
+  "inputs": [],
+  "name": "telos",
+  "outputs": [],
+  "quality": {
+    "cluster": "20_saq_medical",
+    "hard_degree": 3,
+    "soft_degree": 0,
+    "word_count": 619
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "## Quick Reference: Analysis Triggers"
+  ],
+  "version": "1.0.0"
+}

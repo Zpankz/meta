@@ -1,0 +1,36 @@
+{
+  "capabilities": [
+    "ValidationReport",
+    "ValidationResult",
+    "add",
+    "create_system_skill",
+    "main",
+    "passed",
+    "print_report",
+    "score",
+    "validate_cli",
+    "validate_decision_tree",
+    "validate_name",
+    "validate_ooda_coverage",
+    "validate_schema",
+    "validate_skill_md",
+    "validate_structure",
+    "validate_system_skill"
+  ],
+  "category": "skill",
+  "hard_deps": [],
+  "id": "system-skill",
+  "inputs": [],
+  "name": "system-skill",
+  "outputs": [],
+  "quality": {
+    "cluster": "00_meta",
+    "hard_degree": 0,
+    "soft_degree": 0,
+    "word_count": 580
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [],
+  "version": "1.0.0"
+}

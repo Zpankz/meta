@@ -1,0 +1,85 @@
+{
+  "artifact_count": 15,
+  "artifacts": [
+    {
+      "path": ".index/README.md",
+      "sha256": "05a69481e230503fa59068ef23642be25e9c3e1b09c6e703106c68562bbd82f7",
+      "size": 1068
+    },
+    {
+      "path": ".index/interfaces/emit_index.py",
+      "sha256": "de32c0f96339fb6eb4297dea31dd16608f20483c1fb79a06b744efad9fd8bfcd",
+      "size": 49383
+    },
+    {
+      "path": ".index/main_index.yaml",
+      "sha256": "81ae6b804a6710aa8c2fe90270998dc10461f18de88d97ae42646c1ef857aa3d",
+      "size": 12674
+    },
+    {
+      "path": ".index/main_index_payload.json",
+      "sha256": "ee1b0c6fc7deccb2ce2972e0246752094269357fcf521345f54c4f90644cb0f1",
+      "size": 3018
+    },
+    {
+      "path": ".index/bridge_index.json",
+      "sha256": "aa614922a59fd676a99c0dee9a6e626f4c12d8ba750dbac6c695ce4312962735",
+      "size": 16774
+    },
+    {
+      "path": ".index/bridge_candidates.csv",
+      "sha256": "a13800da5238abebf3be21030a19fc4e87afdb900b84138bcba3b3b465530c79",
+      "size": 201
+    },
+    {
+      "path": ".index/hyperedges.json",
+      "sha256": "03812ef42da7a9ccbe750a9a7da5b38694ce8d227e87df3991d146a264314cdd",
+      "size": 1486
+    },
+    {
+      "path": ".index/clustered_graph.json",
+      "sha256": "15bb180b63d2463492f65bbe1a43f6d05bb28a1b834158d19821b10aa24d6a69",
+      "size": 6427
+    },
+    {
+      "path": ".index/control_ontology.json",
+      "sha256": "12d1e0262e8a95ab0f765882b1ae9e9e84b7abb9150b59bf62974a622eba10f0",
+      "size": 75860
+    },
+    {
+      "path": ".index/control_ontology.schema.json",
+      "sha256": "fe70ae2c429b0755d0855157c68bfbbc76c2b3bd97191174459c160842e36dc1",
+      "size": 4617
+    },
+    {
+      "path": ".index/skill_graph.json",
+      "sha256": "dfa74ecbc16bfd349676a26583b00ca832981ee78875f68fa9f892814af6a7af",
+      "size": 53669
+    },
+    {
+      "path": ".index/quality_report.md",
+      "sha256": "6f55d45f2891522dc8b6fe0ef9114529dcbeb0233e5a84f409c730f6472bac03",
+      "size": 555
+    },
+    {
+      "path": ".index/processing_report.md",
+      "sha256": "f1c1778839f333d3a0e7f5123f3ed14839d9e74205f754d2367fc611427adf0b",
+      "size": 337
+    },
+    {
+      "path": ".index/issue_log.json",
+      "sha256": "1418a8b4dd5b3b0890064676f7ed7df4dc7a569028ec45429e6d756f2a09e95a",
+      "size": 411
+    },
+    {
+      "path": ".index/bd_ledger.json",
+      "sha256": "0d461d64eb2d530655ef0a8f2d2da42594a571b228e3585e9aa946bef16b3a97",
+      "size": 337
+    }
+  ],
+  "generated_at": "2026-02-15T05:56:05.442371Z",
+  "missing": [],
+  "output": "/Users/mikhail/Projects/Context-Engineering/Skills/.index/meta_release.zip",
+  "source_root": "/Users/mikhail/Projects/Context-Engineering/Skills",
+  "total_bytes": 226817
+}

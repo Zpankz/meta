@@ -1,0 +1,36 @@
+{
+  "capabilities": [
+    "add_learning",
+    "export_memory",
+    "get_default_memory",
+    "init_memory",
+    "load_memory",
+    "main",
+    "reset_memory",
+    "save_memory",
+    "show_stats",
+    "validate_all",
+    "validate_base",
+    "validate_canvas"
+  ],
+  "category": "skill",
+  "hard_deps": [
+    "learn"
+  ],
+  "id": "obsidian",
+  "inputs": [],
+  "name": "obsidian",
+  "outputs": [],
+  "quality": {
+    "cluster": "30_tools_and_aux",
+    "hard_degree": 1,
+    "soft_degree": 0,
+    "word_count": 533
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "| Hook | Trigger | Purpose |"
+  ],
+  "version": "1.0.0"
+}

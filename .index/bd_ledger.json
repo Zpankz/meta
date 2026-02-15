@@ -1,0 +1,16 @@
+{
+  "findings": [],
+  "generated_at": "2026-02-15T05:56:05.402649Z",
+  "project_root": "/Users/mikhail/Projects/Context-Engineering/Skills",
+  "summary": {
+    "acyclic_ratio_hard_dag": 1.0,
+    "critical": 0,
+    "findings": 0,
+    "high": 0,
+    "info": 0,
+    "low": 0,
+    "mctsr": 100.0,
+    "medium": 0,
+    "node_count": 37
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "capabilities": [
+    "ValidationResult",
+    "Violation",
+    "add_violation",
+    "apply_auto_fixes",
+    "audit_structure",
+    "optimise_skill",
+    "print_report",
+    "score_description",
+    "validate_frontmatter"
+  ],
+  "category": "skill",
+  "hard_deps": [],
+  "id": "skill-optimiser",
+  "inputs": [],
+  "name": "skill-optimiser",
+  "outputs": [],
+  "quality": {
+    "cluster": "00_meta",
+    "hard_degree": 0,
+    "soft_degree": 0,
+    "word_count": 492
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "| Trigger clause | 0.25 | \"Use when...\" |",
+    "| Missing trigger clause | MAJOR | Add \"Use when...\" |"
+  ],
+  "version": "1.0.0"
+}

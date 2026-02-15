@@ -1,0 +1,8 @@
+interface:
+  display_name: "Meta"
+  short_description: "Emit and validate deterministic skill-corpus governance artifacts."
+  default_prompt: "Use the meta skill to emit control-plane artifacts and validate dependency quality."
+  entry_points:
+    - ".index/interfaces/emit_index.py"
+    - "skills/meta/scripts/meta_cycle.py"
+    - "skills/meta/scripts/package_release.py"

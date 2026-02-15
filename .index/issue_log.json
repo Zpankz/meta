@@ -1,0 +1,17 @@
+{
+  "acyclic_ratio_hard_dag": 1.0,
+  "acyclic_ratio_raw": 0.4865,
+  "cluster_count": 5,
+  "cycle_demotion_edges": 24,
+  "generated_at": "2026-02-15T05:56:31.992014Z",
+  "hard_edges": 136,
+  "hard_edges_dag": 61,
+  "max_depth": 8,
+  "mctsr": 100.0,
+  "mctsr_passed": true,
+  "node_count": 37,
+  "soft_bridge_candidates": 6,
+  "soft_edges": 13,
+  "transitive_reduction_edges": 51,
+  "unresolved_references": []
+}

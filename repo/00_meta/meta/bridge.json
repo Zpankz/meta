@@ -1,0 +1,50 @@
+{
+  "called_by": [],
+  "canonical_archive": "repo/00_meta/meta.skill",
+  "canonical_path": "repo/00_meta/meta.skill",
+  "category": "00_meta",
+  "depends_on": [
+    "critique",
+    "graph",
+    "skill-orchestrator",
+    "skill-protocol",
+    "skill-updater",
+    "system-skill",
+    "unify"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    ".index/interfaces/emit_index.py",
+    "skills/meta/scripts/issue_ledger.py",
+    "skills/meta/scripts/package_release.py",
+    "skills/meta/scripts/meta_cycle.py"
+  ],
+  "hard_deps": [
+    "skill-orchestrator",
+    "system-skill",
+    "unify"
+  ],
+  "id": "meta",
+  "outputs": [
+    ".index/main_index.yaml",
+    ".index/main_index_payload.json",
+    ".index/quality_report.md",
+    ".index/processing_report.md",
+    ".index/issue_log.json",
+    ".index/bd_ledger.json",
+    ".index/meta_release.zip",
+    ".index/meta_release_manifest.json"
+  ],
+  "quality": {
+    "script_count": 3,
+    "tokens": 0,
+    "word_count": 360
+  },
+  "soft_refs": [
+    "critique",
+    "graph",
+    "skill-protocol",
+    "skill-updater"
+  ],
+  "version": "0.2.0"
+}

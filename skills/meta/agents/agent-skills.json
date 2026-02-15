@@ -1,0 +1,15 @@
+{
+  "name": "meta",
+  "description": "Governance index emission, DAG validation, and BD-style issue tracking for skill corpora.",
+  "platform": "agent-skills",
+  "frontmatter": {
+    "name": "meta",
+    "description": "Emit deterministic .index artifacts with integrity checks, issue tracking, and release packaging."
+  },
+  "entry_points": [
+    ".index/interfaces/emit_index.py",
+    "skills/meta/scripts/issue_ledger.py",
+    "skills/meta/scripts/package_release.py",
+    "skills/meta/scripts/meta_cycle.py"
+  ]
+}

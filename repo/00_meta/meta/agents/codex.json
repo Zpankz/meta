@@ -1,0 +1,23 @@
+{
+  "name": "meta",
+  "description": "Deterministically emit and validate .index graph and ontology artifacts for cross-platform audits.",
+  "platform": "codex",
+  "entry": "skills/meta/scripts/meta_cycle.py --base . --iterations 5 --strict --package",
+  "required_artifacts": [
+    ".index/bridge_candidates.csv",
+    ".index/bridge_index.json",
+    ".index/clustered_graph.json",
+    ".index/control_ontology.json",
+    ".index/control_ontology.schema.json",
+    ".index/hyperedges.json",
+    ".index/main_index_payload.json",
+    ".index/main_index.yaml",
+    ".index/processing_report.md",
+    ".index/processing_report.md",
+    ".index/quality_report.md",
+    ".index/skill_graph.json",
+    ".index/issue_log.json",
+    ".index/bd_ledger.json",
+    ".index/meta_release_manifest.json"
+  ]
+}

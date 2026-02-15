@@ -1,0 +1,27 @@
+{
+  "capabilities": [],
+  "category": "skill",
+  "hard_deps": [
+    "graph",
+    "lambda",
+    "skill-optimiser",
+    "skill-orchestrator"
+  ],
+  "id": "skill-composer",
+  "inputs": [],
+  "name": "composite-{workflow-name}",
+  "outputs": [],
+  "quality": {
+    "cluster": "00_meta",
+    "hard_degree": 4,
+    "soft_degree": 0,
+    "word_count": 649
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "pipelines. Generates composite skills from successful workflow patterns. Triggers",
+    "Composition: {notation}. Use when {triggers}."
+  ],
+  "version": "1.0.0"
+}

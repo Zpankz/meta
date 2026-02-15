@@ -1,0 +1,45 @@
+{
+  "capabilities": [
+    "SchemaComponents",
+    "Severity",
+    "ValidationResult",
+    "_check_iso_heuristic",
+    "_split_grid_row",
+    "check_budget_proportionality",
+    "check_cascades_intact",
+    "check_depth",
+    "check_equation_anchored",
+    "check_grid_completeness",
+    "check_heading_brevity",
+    "check_information_density",
+    "check_isomorphism",
+    "check_no_filler",
+    "check_synthesis_present",
+    "check_values_context",
+    "check_word_budget",
+    "format_report",
+    "main",
+    "parse_schema",
+    "validate_schema"
+  ],
+  "category": "skill",
+  "hard_deps": [
+    "saq"
+  ],
+  "id": "saq-schema",
+  "inputs": [],
+  "name": "saq-schema",
+  "outputs": [],
+  "quality": {
+    "cluster": "20_saq_medical",
+    "hard_degree": 1,
+    "soft_degree": 0,
+    "word_count": 746
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "**Automatic trigger procedure:**"
+  ],
+  "version": "1.0.0"
+}

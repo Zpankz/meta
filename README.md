@@ -4,14 +4,14 @@ Distributed as a reusable skill for the Context-Engineering skill corpus.
 
 ## What this is
 
-`meta` is a deterministic packaging skill that emits a reproducible governance artifact bundle from a built skill corpus
+`meta` is a deterministic governance skill that emits reproducible control-plane artifacts from a skill corpus
 (`.index` metadata) for distribution and audit.
 
 ## What it provides
 
 - `SKILL.md` with explicit behavior and dependency contracts.
-- `scripts/package_bundle.py` to produce `.index/skill_bundle.zip` and `.index/skill_bundle_manifest.json`.
-- Compatibility with both `npx skills`/`ai-agent-skills` installation and Claude plugin marketplace distribution.
+- Cross-platform release tooling with reproducible indexing, ontologies, DAG analysis, and issue-ledger control.
+- Compatibility with `npx skills`, `ai-agent-skills`, and Claude plugin marketplace distribution.
 
 ## Distribution targets
 
@@ -25,14 +25,15 @@ This repository is designed for:
 From the containing corpus root, run:
 
 ```bash
-python skills/meta/scripts/package_bundle.py --base . --overwrite
+python skills/meta/scripts/package_release.py --base . --strict
 ```
 
 ## Build and validation
 
 - Build artifact (per-call):
-- `python skills/meta/scripts/package_bundle.py --base . --overwrite`
-- `python skills/meta/scripts/package_bundle.py --base . --overwrite --strict` (requires all configured `.index/*` artifacts)
+- `python .index/interfaces/emit_index.py --base .`
+- `python skills/meta/scripts/meta_cycle.py --base . --iterations 5 --strict --package`
+- `python skills/meta/scripts/package_release.py --base . --strict` (requires all configured `.index/*` artifacts)
 - Validate marketplace manifest:
   - `claude plugin validate .`
 

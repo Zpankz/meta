@@ -1,0 +1,49 @@
+{
+  "capabilities": [
+    "categorize_skills",
+    "compute_topology_metrics",
+    "determine_level",
+    "discover_skills",
+    "extract_capabilities",
+    "extract_integration_points",
+    "extract_interfaces",
+    "main",
+    "parse_yaml_frontmatter",
+    "scan_skill_directory"
+  ],
+  "category": "skill",
+  "hard_deps": [
+    "agency",
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "skill-composer",
+    "skill-optimiser",
+    "skill-protocol",
+    "skill-updater",
+    "think"
+  ],
+  "id": "skill-orchestrator",
+  "inputs": [],
+  "name": "skill-orchestrator",
+  "outputs": [],
+  "quality": {
+    "cluster": "00_meta",
+    "hard_degree": 10,
+    "soft_degree": 0,
+    "word_count": 512
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "Triggers on 'orchestrate skills', 'skill ecosystem', 'integrate skills', 'compose",
+    "- triggers: [\"Use when...\", patterns]",
+    "trigger: \"session_start OR before_any_task\"",
+    "trigger: \"chain skills OR compose workflow\"",
+    "trigger: \"create skill OR new skill\"",
+    "trigger: \"validate OR audit OR optimize\"",
+    "trigger: \"post_task_completion OR improve skill\""
+  ],
+  "version": "1.0.0"
+}

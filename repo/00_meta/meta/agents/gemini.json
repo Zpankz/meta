@@ -1,0 +1,21 @@
+{
+  "name": "meta",
+  "description": "Deterministic control-plane emission, dependency audits, and release packaging for skill corpora.",
+  "platform": "gemini",
+  "entry": "skills/meta/scripts/meta_cycle.py --base . --iterations 5 --strict",
+  "required_artifacts": [
+    ".index/bridge_candidates.csv",
+    ".index/bridge_index.json",
+    ".index/clustered_graph.json",
+    ".index/control_ontology.json",
+    ".index/control_ontology.schema.json",
+    ".index/hyperedges.json",
+    ".index/main_index_payload.json",
+    ".index/main_index.yaml",
+    ".index/processing_report.md",
+    ".index/quality_report.md",
+    ".index/skill_graph.json",
+    ".index/issue_log.json",
+    ".index/bd_ledger.json"
+  ]
+}

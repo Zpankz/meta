@@ -1,0 +1,23 @@
+{
+  "capabilities": [],
+  "category": "skill",
+  "hard_deps": [
+    "abduct",
+    "graph",
+    "ontolog"
+  ],
+  "id": "eloquence",
+  "inputs": [],
+  "name": "eloquence",
+  "outputs": [],
+  "quality": {
+    "cluster": "30_tools_and_aux",
+    "hard_degree": 3,
+    "soft_degree": 0,
+    "word_count": 681
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [],
+  "version": "1.0.0"
+}

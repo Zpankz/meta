@@ -1,0 +1,44 @@
+{
+  "called_by": [
+    "meta"
+  ],
+  "canonical_archive": "repo/40_unify/unify.skill",
+  "canonical_path": "repo/40_unify/unify",
+  "category": "40_unify",
+  "depends_on": [
+    "constraints",
+    "critique",
+    "dspy",
+    "graph",
+    "graph-reasoning",
+    "hierarchical-reasoning",
+    "rpp"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "unify/scripts/unify.py"
+  ],
+  "hard_deps": [
+    "constraints"
+  ],
+  "id": "unify",
+  "outputs": [
+    "unified/index.md",
+    "unified/report.md",
+    "unified/analysis.json"
+  ],
+  "quality": {
+    "script_count": 1,
+    "tokens": 0,
+    "word_count": 746
+  },
+  "soft_refs": [
+    "critique",
+    "dspy",
+    "graph",
+    "graph-reasoning",
+    "hierarchical-reasoning",
+    "rpp"
+  ],
+  "version": "0.2.0"
+}

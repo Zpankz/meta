@@ -1,0 +1,47 @@
+{
+  "capabilities": [
+    "analyze",
+    "decompose",
+    "cluster_modules",
+    "construct_dag",
+    "optimize_structure",
+    "extract_concepts",
+    "score_unification"
+  ],
+  "category": "skill",
+  "hard_deps": [
+    "graph",
+    "hierarchical-reasoning",
+    "constraints"
+  ],
+  "id": "unify",
+  "inputs": [],
+  "name": "unify",
+  "outputs": [
+    "unified/index.md",
+    "unified/analysis.json",
+    "unified/report.md"
+  ],
+  "quality": {
+    "cluster": "40_unify",
+    "hard_degree": 3,
+    "soft_degree": 3,
+    "word_count": 746
+  },
+  "soft_refs": [
+    "critique",
+    "dspy",
+    "rpp",
+    "graph-reasoning"
+  ],
+  "subgraph_type": "modular_block",
+  "triggers": [
+    "unify",
+    "map codebase",
+    "analyze structure",
+    "build dependency DAG",
+    "decompose into modules",
+    "optimize ontology graph"
+  ],
+  "version": "1.0.0"
+}

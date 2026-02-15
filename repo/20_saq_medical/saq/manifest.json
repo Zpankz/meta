@@ -1,0 +1,21 @@
+{
+  "capabilities": [],
+  "category": "skill",
+  "hard_deps": [
+    "constraints"
+  ],
+  "id": "saq",
+  "inputs": [],
+  "name": "saq",
+  "outputs": [],
+  "quality": {
+    "cluster": "20_saq_medical",
+    "hard_degree": 1,
+    "soft_degree": 0,
+    "word_count": 727
+  },
+  "soft_refs": [],
+  "subgraph_type": "modular_block",
+  "triggers": [],
+  "version": "1.0.0"
+}
