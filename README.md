@@ -7,6 +7,16 @@ Distributed as a reusable skill for the Context-Engineering skill corpus.
 `meta` is a deterministic governance skill that emits reproducible control-plane artifacts from a skill corpus
 (`.index` metadata) for distribution and audit.
 
+## Completion Promise
+
+This repository fulfills a strict, recursive governance synthesis of the provided skill corpus:
+
+- Every skill is normalized into a canonical modular cluster.
+- Cross-skill dependencies are emitted as auditable hard/soft edges.
+- Compatibility aliases are preserved through `.skill` symlinks.
+- Orchestration artifacts are emitted deterministically with MCTSR validation and BD issue ledgers.
+- The result is packaged as a plugin-ready, release-validated skill distribution.
+
 ## What it provides
 
 - `SKILL.md` with explicit behavior and dependency contracts.
@@ -33,6 +43,7 @@ python skills/meta/scripts/package_release.py --base . --strict
 - Build artifact (per-call):
 - `python .index/interfaces/emit_index.py --base .`
 - `python skills/meta/scripts/meta_cycle.py --base . --iterations 5 --strict --package`
+- `python skills/meta/scripts/meta_cycle.py --base . --iterations 5 --strict --package` (explicit RALPH orchestration form)
 - `python skills/meta/scripts/package_release.py --base . --strict` (requires all configured `.index/*` artifacts)
 - Validate marketplace manifest:
   - `claude plugin validate .`

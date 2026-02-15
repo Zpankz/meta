@@ -3,7 +3,7 @@
   "acyclic_ratio_raw": 0.4865,
   "cluster_count": 5,
   "cycle_demotion_edges": 24,
-  "generated_at": "2026-02-15T05:56:31.992014Z",
+  "generated_at": "2026-02-15T07:24:47.038627Z",
   "hard_edges": 136,
   "hard_edges_dag": 61,
   "max_depth": 8,

@@ -1,6 +1,6 @@
 # Skill Refactor Index
 
-Generated: 2026-02-15T05:56:31.991962Z
+Generated: 2026-02-15T07:24:47.038577Z
 - Canonical skills: 37
 - Total nodes: 37
 - Demotion edges for DAG/trace compatibility: 75
