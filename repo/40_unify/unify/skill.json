@@ -1,6 +1,6 @@
 {
   "name": "unify",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "title": "Unify — Recursive Context Unification Engine",
   "description": "Recursive context unification engine that ingests file directories and emits a progressive DAG+bridge artifact graph.",
   "entry": "scripts/unify.py",

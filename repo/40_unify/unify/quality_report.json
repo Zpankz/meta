@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-02-16T02:13:01.833928",
+  "timestamp": "2026-02-16T02:16:02.691374",
   "skill_name": "unify",
   "overall_score": {
-    "total_score": 100.0,
+    "total_score": 97.5,
     "completeness": 100.0,
     "accuracy": 100.0,
-    "coverage": 100.0,
+    "coverage": 90.0,
     "health": 100.0,
     "grade": "A+"
   },
@@ -26,10 +26,12 @@
     },
     {
       "name": "Coverage",
-      "value": 100.0,
+      "value": 90.0,
       "level": "MetricLevel.INFO",
-      "description": "Documentation coverage: 100.0%",
-      "suggestions": []
+      "description": "Documentation coverage: 90.0%",
+      "suggestions": [
+        "Expand documentation coverage"
+      ]
     },
     {
       "name": "Health",
@@ -40,12 +42,12 @@
     }
   ],
   "statistics": {
-    "total_files": 10,
-    "total_size_bytes": 33303,
-    "markdown_files": 10,
-    "reference_files": 9,
-    "total_characters": 32527,
-    "total_words": 4345
+    "total_files": 5,
+    "total_size_bytes": 10342,
+    "markdown_files": 5,
+    "reference_files": 4,
+    "total_characters": 10318,
+    "total_words": 1279
   },
   "recommendations": [
     "\u2705 Excellent quality! Consider adding advanced topics"

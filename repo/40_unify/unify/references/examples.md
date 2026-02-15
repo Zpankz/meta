@@ -45,5 +45,4 @@ Track score deltas after each content or CLI contract change.
 ```
 
 This validates code surface extraction and documentation completeness used by
-`references/reference_api.md` and `references/reference_patterns.md`.
-
+`references/reference_api.md`.

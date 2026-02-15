@@ -7,16 +7,16 @@
   "category": "40_unify",
   "depends_on": [
     "constraints",
-    "critique",
-    "dspy",
     "graph",
     "graph-reasoning",
     "hierarchical-reasoning",
+    "critique",
+    "dspy",
     "rpp"
   ],
   "deprecated_aliases": [],
   "entry_points": [
-    "unify/scripts/unify.py"
+    "scripts/unify.py"
   ],
   "hard_deps": [
     "constraints"
@@ -30,7 +30,7 @@
   "quality": {
     "script_count": 1,
     "tokens": 0,
-    "word_count": 746
+    "word_count": 560
   },
   "soft_refs": [
     "critique",
@@ -40,5 +40,5 @@
     "hierarchical-reasoning",
     "rpp"
   ],
-  "version": "0.2.0"
+  "version": "1.1.0"
 }

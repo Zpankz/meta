@@ -10,8 +10,6 @@
   ],
   "category": "skill",
   "hard_deps": [
-    "graph",
-    "hierarchical-reasoning",
     "constraints"
   ],
   "id": "unify",
@@ -24,15 +22,17 @@
   ],
   "quality": {
     "cluster": "40_unify",
-    "hard_degree": 3,
-    "soft_degree": 3,
-    "word_count": 746
+    "hard_degree": 1,
+    "soft_degree": 6,
+    "word_count": 560
   },
   "soft_refs": [
+    "graph",
+    "graph-reasoning",
+    "hierarchical-reasoning",
     "critique",
     "dspy",
-    "rpp",
-    "graph-reasoning"
+    "rpp"
   ],
   "subgraph_type": "modular_block",
   "triggers": [
@@ -43,5 +43,5 @@
     "decompose into modules",
     "optimize ontology graph"
   ],
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
